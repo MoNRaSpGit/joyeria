@@ -16,9 +16,11 @@ import {
 import carusel1 from "../Img/Caruel11.jpg";
 import carusel2 from "../Img/Carusel12.jpg";
 import carusel3 from "../Img/Carusel1.png";
+
 import prod1 from "../Img/producto11.jpg";
 import prod2 from "../Img/produc2.jpg";
 import prod3 from "../Img/produc3.jpg";
+
 import prod4 from "../Img/bebe5.jpg";
 import prod5 from "../Img/proudc5.jpg";
 import prod6 from "../Img/product6.jpg";
