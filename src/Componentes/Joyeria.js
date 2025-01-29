@@ -143,7 +143,7 @@ const Joyeria = () => {
                   className="card-img-top-custom"
                 />
                 <Card.Body>
-                  <Card.Title className="product-name">Colecion {idx + 1}</Card.Title>
+                  <Card.Title className="product-name">colección {idx + 1}</Card.Title>
                   <Card.Text className="product-price">
                     Antes: $49.99 Ahora: $24.99
                   </Card.Text>
