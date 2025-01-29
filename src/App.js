@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+
 import Joyeria from './Componentes/Joyeria'; // ✅ Importamos el componente desde la carpeta
 
 function App() {
