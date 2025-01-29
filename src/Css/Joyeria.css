@@ -1,0 +1,232 @@
+/* ======== IMPORTAR FUENTES ======== */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400;500&display=swap');
+
+/* ======== ESTILOS GENERALES ======== */
+body {
+  font-family: 'Poppins', sans-serif; /* Fuente más moderna y legible */
+  background-color: #ffffff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* ======== ENCABEZADO ======== */
+.header-bar {
+  background-color: #1a202c;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ffd700;
+}
+
+.logo-text {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffd700;
+}
+
+.nav-links a {
+  color: white;
+  font-size: 1rem;
+  margin-left: 15px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffd700;
+}
+
+/* ======== CARRUSEL ======== */
+
+/* ======== CARRUSEL ======== */
+.custom-carousel {
+  max-height: 500px; /* 🔹 Altura máxima fija */
+  overflow: hidden;
+}
+
+.custom-carousel .carousel-item {
+  height: 500px; /* 🔹 Mantiene todas las imágenes del carrusel con la misma altura */
+}
+
+.custom-carousel .carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 🔹 Asegura que las imágenes se ajusten sin deformarse */
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ======== ESTILOS ADICIONALES ======== */
+/* Estilo de tarjeta transparente */
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 12px 18px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+/* Nombre del producto */
+.carousel-name {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ff5733;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+/* ======== SECCIÓN DE PRODUCTOS ======== */
+.section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: white;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.product-details {
+  text-align: center;
+  padding: 12px;
+}
+
+.product-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.product-price {
+  color: #444;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+/* ======== BOTONES DE AGREGAR AL CARRITO ======== */
+.add-to-cart-btn {
+  background-color: #333; /* Un gris oscuro más sobrio */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #222;
+  transform: translateY(-2px);
+}
+
+
+
+
+
+
+/* ======== NUEVO FOOTER ======== */
+.footer-container {
+  background-color: #111; /* Fondo oscuro elegante */
+  color: #bbb; /* Texto gris claro */
+  padding: 40px 20px 20px; /* Más espacio arriba, menos abajo */
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Sección de Logo */
+.footer-logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffd700; /* Dorado elegante */
+}
+
+/* Información de contacto */
+.footer-info,
+.footer-hours {
+  text-align: left;
+  max-width: 250px;
+}
+
+.footer-info p,
+.footer-hours p {
+  margin: 5px 0;
+  font-size: 0.85rem;
+  color: #ddd;
+}
+
+/* Horarios */
+.footer-hours h5 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffd700;
+  margin-bottom: 5px;
+}
+
+/* Redes Sociales */
+.footer-socials {
+  display: flex;
+  gap: 15px;
+  font-size: 1.2rem;
+}
+
+.footer-socials a {
+  color: #bbb;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-socials a:hover {
+  color: #ffd700;
+}
+
+/* Línea sutil arriba del footer */
+.footer-bottom {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+/* Agrega más espacio entre el último producto y el footer */
+.container {
+  padding-bottom: 80px;
+}

@@ -1,22 +1,12 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Joyeria from './Componentes/Joyeria'; // ✅ Importamos el componente desde la carpeta
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          SOY JOYERIA
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Joyeria />  {/* ✅ Mostramos el componente Joyeria aquí */}
       </header>
     </div>
   );
