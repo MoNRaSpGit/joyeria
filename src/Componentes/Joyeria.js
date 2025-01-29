@@ -12,10 +12,10 @@ import {
 } from "react-bootstrap";
 // import "../Css/Joyeria.css"; // Tus estilos personalizados + Bootstrap
 
-// Importar imágenes
-import carusel1 from "../Img/Caruel11.jpg";
+// Importar imágenes /Img/Carusel1.png
+import carusel1 from "../Img/Carusel1.png";
 import carusel2 from "../Img/Carusel12.jpg";
-import carusel3 from "../Img/Carusel1.png";
+import carusel3 from "../Img/Caruel11.jpg";
 
 import prod1 from "../Img/producto11.jpg";
 import prod2 from "../Img/produc2.jpg";
@@ -143,7 +143,7 @@ const Joyeria = () => {
                   className="card-img-top-custom"
                 />
                 <Card.Body>
-                  <Card.Title className="product-name">Juguete {idx + 1}</Card.Title>
+                  <Card.Title className="product-name">Colecion {idx + 1}</Card.Title>
                   <Card.Text className="product-price">
                     Antes: $49.99 Ahora: $24.99
                   </Card.Text>
