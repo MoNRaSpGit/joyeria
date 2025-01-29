@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/joyeria/static/css/main.8cb45a00.css",
-    "main.js": "/joyeria/static/js/main.56e6c9ea.js",
+    "main.css": "/joyeria/static/css/main.7f402ca9.css",
+    "main.js": "/joyeria/static/js/main.1a88a1d7.js",
     "static/media/Carusel1.png": "/joyeria/static/media/Carusel1.4181a1969ded1c3e05cc.png",
-    "static/media/Caruel10.jpg": "/joyeria/static/media/Caruel10.3eb8cd2a1e55acd2ad78.jpg",
     "static/media/produc2.jpg": "/joyeria/static/media/produc2.7280f76cdedeb2200228.jpg",
     "static/media/product6.jpg": "/joyeria/static/media/product6.b8cf26b02ceebba30b26.jpg",
-    "static/media/Caruel3.jpg": "/joyeria/static/media/Caruel3.dfb42bac91f56c64d16e.jpg",
     "static/media/produc3.jpg": "/joyeria/static/media/produc3.ad3257ab4fb2e8b587ad.jpg",
     "static/media/producto11.jpg": "/joyeria/static/media/producto11.ec5981db4b2d8e900873.jpg",
+    "static/media/Carusel12.jpg": "/joyeria/static/media/Carusel12.d1e3dfa1961077cefbfe.jpg",
+    "static/media/Caruel11.jpg": "/joyeria/static/media/Caruel11.6bd7ac60e87719cecca7.jpg",
     "static/media/proudc5.jpg": "/joyeria/static/media/proudc5.59454d28e1e951b5a822.jpg",
     "static/media/bebe5.jpg": "/joyeria/static/media/bebe5.09d592760a1e6ffa3c52.jpg",
     "index.html": "/joyeria/index.html",
-    "main.8cb45a00.css.map": "/joyeria/static/css/main.8cb45a00.css.map",
-    "main.56e6c9ea.js.map": "/joyeria/static/js/main.56e6c9ea.js.map"
+    "main.7f402ca9.css.map": "/joyeria/static/css/main.7f402ca9.css.map",
+    "main.1a88a1d7.js.map": "/joyeria/static/js/main.1a88a1d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cb45a00.css",
-    "static/js/main.56e6c9ea.js"
+    "static/css/main.7f402ca9.css",
+    "static/js/main.1a88a1d7.js"
   ]
 }
