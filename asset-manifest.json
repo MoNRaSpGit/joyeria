@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/joyeria/static/css/main.7f402ca9.css",
-    "main.js": "/joyeria/static/js/main.1a88a1d7.js",
+    "main.js": "/joyeria/static/js/main.46e1f6e1.js",
     "static/media/Carusel1.png": "/joyeria/static/media/Carusel1.4181a1969ded1c3e05cc.png",
     "static/media/produc2.jpg": "/joyeria/static/media/produc2.7280f76cdedeb2200228.jpg",
     "static/media/product6.jpg": "/joyeria/static/media/product6.b8cf26b02ceebba30b26.jpg",
@@ -13,10 +13,10 @@
     "static/media/bebe5.jpg": "/joyeria/static/media/bebe5.09d592760a1e6ffa3c52.jpg",
     "index.html": "/joyeria/index.html",
     "main.7f402ca9.css.map": "/joyeria/static/css/main.7f402ca9.css.map",
-    "main.1a88a1d7.js.map": "/joyeria/static/js/main.1a88a1d7.js.map"
+    "main.46e1f6e1.js.map": "/joyeria/static/js/main.46e1f6e1.js.map"
   },
   "entrypoints": [
     "static/css/main.7f402ca9.css",
-    "static/js/main.1a88a1d7.js"
+    "static/js/main.46e1f6e1.js"
   ]
 }
